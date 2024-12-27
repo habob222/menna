@@ -1,0 +1,135 @@
+/* General Styles */
+/* Logo container */
+/* Container for the logo */
+.logo {
+    position: absolute;
+    top: 20px;  /* Distance from the top of the page */
+    left: 20px; /* Distance from the left of the page */
+}
+
+/* Styling for the logo image */
+.logo-image {
+    width: 100px;  /* Adjust the width of the logo */
+    height: auto;   /* Keep the aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* About Section Container */
+  .about-container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Profile Image Section */
+  .about-image img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Content Section */
+  .about-content {
+    padding: 30px;
+    flex: 1;
+    position: relative;
+  }
+  
+  /* Title Styling */
+  .about-content h1 {
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    
+    position: relative;
+  }
+  
+  .about-content h1::after {
+    content: 'About';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.03);
+    z-index: -1;
+    font-weight: bold;
+  }
+  
+  /* Subtitle Styling */
+  .about-subtitle {
+    margin: 20px 0;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* List Styling */
+  .about-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-details li {
+    margin: 10px 0;
+  }
+  
+  .about-details li strong {
+    color: white;
+  }
+  
+ 
+  
+  /* Download Button */
+  .download-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #36AFE0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .download-cv:hover {
+    background-color: #278cb4;
+  }
+
+.hi{
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.dd{
+    text-decoration: none; /* Removes underline */
+  color: #aaa; /* Link color */
+  font-weight: bold; /* Bold text */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.dd:hover {
+    color: #fff; /* Change color on hover */
+    background-color:transparent; /* Add background */
+    padding: 5px 10px; /* Add padding to the hover state */
+    border-radius: 5px; /* Rounded corners for hover background */
+  }
